@@ -1,10 +1,71 @@
 /**
  * Configure your Gatsby site with this file.
  *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
-}
+  siteMetadata: {
+    title: `Puremedia - Free Responsive HTML5/CSS3 Template`,
+    author: {
+      name: `Joe Bloggs`,
+    },
+    description: `Woo is a clean, modern, landing page site template.`,
+
+    /* Choose and arrange the sections to be displayed on the landing page */
+    sections: [
+      `hero`,
+      // `portfolio`,
+      // `services`,
+      // `about`,
+      // `journal`,
+      // `contact`,
+    ],
+
+    /* Configure the navigation menu */
+    menuItems: [
+      {path: 'portfolio', label: 'Portfolio'},
+      {path: 'services', label: 'Services'},
+      {path: 'about', label: 'About'},
+      {path: 'journal', label: 'Journal'},
+      {path: 'contact', label: 'Contact'},
+    ],
+
+    /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
+    social: [
+      { service: `Facebook`,
+        url : `https://facebook.com/styleshout`,
+        fa: `facebook` },
+      { service: `Twitter`,
+        url : `https://twitter.com/styleshout`,
+        fa: `twitter` },
+      { service: `GitHub`,
+        url : `https://github.com/tuuleh/gatsby-starter-puremedia`,
+        fa: `github` },
+    ],
+
+    /* Path to favicon and logo (located inside the 'static' folder) */
+    favicon: `favicon.png`,
+    logo: `/images/logo.png`,
+
+    /* Logo and text to show in footer */
+    footer: {
+      logo: `/images/footer-logo.png`,
+      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
+    },
+
+    /* Address and contact info to show in footer */
+    address: {
+      line1: `1600 Amphitheatre Parkway`,
+      line2: `Mountain View, CA`,
+      line3: `94043 US`,
+    },
+    contacts: [
+      { text: `647.343.8234`, url: `tel:6473438234` },
+      { text: `123.456.7890`, url: `tel:1234567890`},
+      { text: `someone@puremedia.com`, url: `mailto:someone@puremedia.com`},
+    ],
+  },
+  plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],
+};

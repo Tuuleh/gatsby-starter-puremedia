@@ -1,0 +1,9 @@
+headline1: Hello, we are puremedia. We make awesome and stunning digital stuff.
+headline2: We imagine, craft and manage your brand in this new digital world.
+headline3: Take a look at some of our works or contact us to discuss how we can help you.
+
+button:
+  label: Get in touch
+  to: '/#connect'
+
+image: images/hero-bg.jpg
