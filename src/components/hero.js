@@ -10,7 +10,9 @@ const settings = {
     slidesToSow: 1,
     slidesToScroll: 1,
     fade: true,
-    arrows: false
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
 };
 
 export default () => (
