@@ -1361,6 +1361,7 @@ hr {
 	margin: 108px auto 30px;
 }
 #hero-slider .flex-caption {
+	width: auto !important;
 	margin: 0 15%;
 }
 #hero-slider .flex-caption h1 {
@@ -1375,7 +1376,7 @@ hr {
 	color: white;
 	display: inline-block;
 	border-bottom: 1px solid #a43b0a;
-}
+}.hero-content .flex-control-paging li
 #hero-slider .flex-caption h1 span:hover, 
 #hero-slider .flex-caption h1 a:hover {
 	border-color: #9a9103;
@@ -1401,20 +1402,8 @@ hr {
 }
 
 /* Slider Control Nav */
-.hero-content .flex-control-nav {
-	width: 80%;
-	margin: 0 auto;
-	display: block;
-	z-index: 889;
-	position: relative;
-}
-.hero-content .flex-control-nav li {
-	margin: 0 6px;
-	display: inline-block;
-	zoom: 1;
-	*display: inline;
-}
-.hero-content .flex-control-paging li a {
+
+.slick-dots li button {
 	width: 15px;
 	height: 15px;
 	display: block;
@@ -1430,10 +1419,12 @@ hr {
 	-moz-box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
-.hero-content .flex-control-paging li a:hover {
+
+.slick-dots li button:hover {
 	border-color: #f26522;
 }
-.hero-content .flex-control-paging li a.flex-active {
+
+.slick-dots li.slick-active button {
 	border-color: #f26522;
 	cursor: default;
 }

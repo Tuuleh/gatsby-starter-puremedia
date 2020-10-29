@@ -1,25 +1,33 @@
 import React from "react"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import content from "../../content/hero.yaml"
+import Slider from "react-slick";
 
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1200,
+    slidesToSow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    arrows: false
+};
 
 export default () => (
     <section id="hero">
         <div className="row hero-content">
             <div className="twelve columns flex-container">
-
-                <div className="hero-slider flexslider">
-                    <ul className="slides">
-                        <li>
-                            <div className="flex-caption">
-                                <h1>{content.headline1}</h1>
-                                <AnchorLink to="/#about" title="More about us">
-                                    <span>More about us</span>
-                                </AnchorLink>
-                                // <p><a className="button stroke smoothscroll" href="#about">More about us</a></p>
-                            </div>
-                        </li>
-                    </ul>
+                <div id="hero-slider" className="flexslider">
+                    <Slider {...settings}>
+                        {content.slides.map((slide, i) => {
+                            return (
+                                <div key={i} className="flex-caption">
+                                    <h1>{slide.text}</h1>
+                                    <p><a className="button stroke smoothscroll" href={slide.link}>{slide.buttonText}</a></p>
+                                </div>
+                            )
+                        })}
+                    </Slider>
 
                 </div>
             </div>

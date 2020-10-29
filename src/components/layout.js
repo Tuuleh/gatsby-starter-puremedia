@@ -7,6 +7,8 @@ import Header from "./main-header"
 import Footer from "./footer"
 
 import "../styles/base.css"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "../styles/main.css"
 import "../styles/media-queries.css"
 
