@@ -18,7 +18,7 @@ config.autoAddCss = false;
 
 export default function Layout ({ children }){
 
-    const { title, description, author, favicon } = useSiteMetadata()
+    const { title, description, author, favicon } = useSiteMetadata();
 
     return(
         <>

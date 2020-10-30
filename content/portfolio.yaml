@@ -1,0 +1,51 @@
+title: "OUR LATEST WORKS"
+introduction: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+entries:
+  -
+    title: "GRIZZLY"
+    description: "Photography"
+    image: images/portfolio/grizzly.jpg
+    altText: "Black and white image of the face of a staring grizzly bear"
+    link: "/portfolio"
+  -
+    title: "HOTEL SIGN"
+    description: "Webdesign"
+    image: images/portfolio/hotel.jpg
+    altText: "A striking, colorful image of a part of a hotel sign"
+    link: "/portfolio"
+  -
+    title: "BEETLE"
+    description: "Branding"
+    image: images/portfolio/beetle.jpg
+    altText: "A shady black and white image of a nostalgic VW Beetle"
+    link: "/portfolio"
+  -
+    title: "BANJO PLAYER"
+    description: "Videography"
+    image: images/portfolio/banjo-player.jpg
+    altText: "A hipster man playing a banjo with his head covered by the brim of a hat"
+    link: "/portfolio"
+  -
+    title: "COFFEE CUP"
+    description: "Photography"
+    image: images/portfolio/coffee.jpg
+    altText: "A cup of coffee with milk on a bright red surface"
+    link: "/portfolio"
+  -
+    title: "FARMERBOY"
+    description: "branding"
+    image: images/portfolio/farmerboy.jpg
+    altText: "A black and white closeup of a classic car"
+    link: "/portfolio"
+  -
+    title: "JUDAH"
+    description: "Web design"
+    image: images/portfolio/judah.jpg
+    altText: "A closeup of the face of a lion statue gazing up in the sunlight"
+    link: "/portfolio"
+  -
+    title: "EMBOSSED PAPER"
+    description: "Branding"
+    image: images/portfolio/embossed-paper.jpg
+    altText: "A closeup of the printed detail on a piece of embossed paper"
+    link: "/portfolio"

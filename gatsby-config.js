@@ -11,13 +11,13 @@ module.exports = {
     author: {
       name: `Joe Bloggs`,
     },
-    description: `Woo is a clean, modern, landing page site template.`,
+    description: `Puremedia is a clean, modern, landing page site template.`,
 
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
       `hero`,
-      // `portfolio`,
-      // `services`,
+      `portfolio`,
+      `services`,
       // `about`,
       // `journal`,
       // `contact`,
@@ -25,10 +25,11 @@ module.exports = {
 
     /* Configure the navigation menu */
     menuItems: [
-      {path: 'portfolio', label: 'Portfolio'},
+      {path: 'hero', label: 'Home'},
+      {path: 'portfolio', label: 'Works'},
       {path: 'services', label: 'Services'},
       {path: 'about', label: 'About'},
-      {path: 'journal', label: 'Journal'},
+      {path: 'journal', label: 'Blog'},
       {path: 'contact', label: 'Contact'},
     ],
 

@@ -1,23 +1,26 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
+import Hero from "../components/hero";
+import Portfolio from "../components/portfolio";
+import Services from "../components/services";
 
-import Hero from "../components/hero"
-
-import { useSiteMetadata } from "../hooks/use-site-metadata"
+import { useSiteMetadata } from "../hooks/use-site-metadata";
 
 export default () => {
   const { sections } = useSiteMetadata();
   const availableSections = {
-    "hero": Hero,
+      "hero": Hero,
+      "portfolio": Portfolio,
+      "services": Services
   };
 
   return(
       <>
         <Layout>
-          { sections.map(section => {
+          { sections.map((section, i) => {
             let SectionName = availableSections[section];
-            return <SectionName />
+            return <SectionName key={i} />
           }) }
         </Layout>
       </>
