@@ -1,0 +1,39 @@
+title: OUR ROCKSTAR TEAM
+introduction: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+entries:
+  -
+    name: Naruto Uzumaki
+    title: Creative Director
+    profilePicture:  'images/team/member01-k.jpg'
+    bio: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
+    facebook: '/'
+    twitter: '/'
+    linkedin: '/'
+    skype: '/'
+  -
+    name: Sasuke Uchiha
+    title: Lead Designer
+    profilePicture:  'images/team/member02-k.jpg'
+    bio: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
+    facebook: '/'
+    twitter: '/'
+    linkedin: '/'
+    skype: '/'
+  -
+    name: Sakura Haruno
+    title: Web Designer
+    profilePicture:  'images/team/member03-k.jpg'
+    bio: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
+    facebook: '/'
+    twitter: '/'
+    linkedin: '/'
+    skype: '/'
+  -
+    name: Shikamaru Nara
+    title: Web Designer
+    profilePicture:  'images/team/member04-k.jpg'
+    bio: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
+    facebook: '/'
+    twitter: '/'
+    linkedin: '/'
+    skype: '/'

@@ -18,7 +18,7 @@ module.exports = {
       `hero`,
       `portfolio`,
       `services`,
-      // `about`,
+      `about`,
       // `journal`,
       // `contact`,
     ],

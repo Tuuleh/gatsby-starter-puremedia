@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 import Portfolio from "../components/portfolio";
 import Services from "../components/services";
+import About from "../components/about";
 
 import { useSiteMetadata } from "../hooks/use-site-metadata";
 
@@ -12,7 +13,8 @@ export default () => {
   const availableSections = {
       "hero": Hero,
       "portfolio": Portfolio,
-      "services": Services
+      "services": Services,
+      "about": About
   };
 
   return(
