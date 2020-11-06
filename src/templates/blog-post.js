@@ -4,25 +4,20 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
 const BlogPostTemplate = ({ data }) => {
-    const post = data.markdownRemark;
+    const { markdownRemark: post } = data;
 
     return (
         <Layout>
-            <article
-                className="blog-post"
-                itemScope
-                itemType="http://schema.org/Article"
-            >
-                <header>
-                    <h1 itemProp="headline">{post.frontmatter.title}</h1>
-                    <p>{post.frontmatter.date}</p>
-                </header>
-                <section
-                    dangerouslySetInnerHTML={{ __html: post.html }}
-                    itemProp="articleBody"
-                />
-                <hr />
-            </article>
+            <div className="blog-post-container">
+                <h1>`Your Blog Name - ${post.frontmatter.title}`}</h1>
+                <div className="blog-post">
+                    <h1>{post.frontmatter.title}</h1>
+                    <div
+                        className="blog-post-content"
+                        dangerouslySetInnerHTML={{ __html: post.html }}
+                    />
+                </div>
+            </div>
         </Layout>
     )
 };
@@ -30,8 +25,8 @@ const BlogPostTemplate = ({ data }) => {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostByPath($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+  query BlogPostByPath($path: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $path } }) {
       html
       frontmatter {
         title
