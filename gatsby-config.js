@@ -19,7 +19,7 @@ module.exports = {
       `portfolio`,
       `services`,
       `about`,
-      // `journal`,
+      `journal`,
       // `contact`,
     ],
 
@@ -68,5 +68,25 @@ module.exports = {
       { text: `someone@puremedia.com`, url: `mailto:someone@puremedia.com`},
     ],
   },
-  plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],
+  plugins: [
+      `gatsby-plugin-catch-links`,
+      `gatsby-plugin-react-helmet`,
+      `gatsby-plugin-anchor-links`,
+      `gatsby-plugin-smoothscroll`,
+      `react-scrollspy`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [] //TODO: image compression and responsive images with gatsby-remark-images
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
+
+  ],
 };

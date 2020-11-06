@@ -39,7 +39,7 @@ export default function () {
                                     href={`/#${value.path}`}
                                     onClick={()=>{
                                         console.log("Clicked ", value.label)
-                                        scrollTo(`/#${value.path}`);
+                                        scrollTo(`#${value.path}`);
                                         setVisibility(0);
                                     }}
                                 >{`${value.label}.`}</a>
