@@ -20,7 +20,7 @@ module.exports = {
       `services`,
       `about`,
       `journal`,
-      // `contact`,
+      `contact`,
     ],
 
     /* Configure the navigation menu */

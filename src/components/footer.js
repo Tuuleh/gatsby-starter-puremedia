@@ -37,7 +37,7 @@ export default () => {
                             <h3 className="contact">Follow Us</h3>
                             <ul>
                                 { social.map(mySocial =>
-                                    <li><a href={ mySocial.url }>
+                                    <li key={mySocial.service }><a href={ mySocial.url }>
                                         { mySocial.service }
                                     </a></li>
                                 )}

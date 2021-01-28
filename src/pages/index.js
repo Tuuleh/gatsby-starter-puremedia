@@ -6,6 +6,7 @@ import Portfolio from "../components/portfolio";
 import Services from "../components/services";
 import About from "../components/about";
 import Journal from "../components/journal";
+import Contact from "../components/contact";
 
 import { useSiteMetadata } from "../hooks/use-site-metadata";
 
@@ -16,7 +17,8 @@ export default () => {
           "portfolio": Portfolio,
           "services": Services,
           "about": About,
-          "journal": Journal
+          "journal": Journal,
+          "contact": Contact
     };
 
     return(
