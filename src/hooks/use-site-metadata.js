@@ -20,11 +20,10 @@ export const useSiteMetadata = () => {
                 social{
                   service
                   url
-                  fa
                 }
                 footer{
+                  title
                   text
-                  logo
                 }
                 address{
                   line1
@@ -32,8 +31,18 @@ export const useSiteMetadata = () => {
                   line3
                 }
                 contacts {
-                  text
-                  url
+                  tel1{
+                    url
+                    text  
+                  }
+                  tel2{
+                    url
+                    text  
+                  }
+                  email{
+                    url
+                    text  
+                  }
                 }
               }
             }

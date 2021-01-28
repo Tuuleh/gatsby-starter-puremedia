@@ -27,10 +27,10 @@ export default () => (
                                 </div>
                                 <p>{entry.bio}</p>
                                 <ul className="member-social">
-                                    <li><a href={entry.facebook}><i className="fa fa-facebook"></i></a></li>
-                                    <li><a href={entry.twitter}><i className="fa fa-twitter"></i></a></li>
-                                    <li><a href={entry.linkedin}><i className="fa fa-linkedin"></i></a></li>
-                                    <li><a href={entry.skype}><i className="fa fa-skype"></i></a></li>
+                                    <li aria-label="Facebook button"><a href={entry.facebook}><i className="fa fa-facebook"></i></a></li>
+                                    <li aria-label="Twitter button"><a href={entry.twitter}><i className="fa fa-twitter"></i></a></li>
+                                    <li aria-label="LinkedIn button"><a href={entry.linkedin}><i className="fa fa-linkedin"></i></a></li>
+                                    <li aria-label="Skype button"><a href={entry.skype}><i className="fa fa-skype"></i></a></li>
                                 </ul>
                             </div>
                         )

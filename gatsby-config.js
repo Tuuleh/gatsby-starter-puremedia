@@ -52,8 +52,10 @@ module.exports = {
 
     /* Logo and text to show in footer */
     footer: {
-      logo: `/images/footer-logo.png`,
-      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
+      title: `About Puremedia`,
+      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     },
 
     /* Address and contact info to show in footer */
@@ -62,11 +64,27 @@ module.exports = {
       line2: `Mountain View, CA`,
       line3: `94043 US`,
     },
-    contacts: [
-      { text: `647.343.8234`, url: `tel:6473438234` },
-      { text: `123.456.7890`, url: `tel:1234567890`},
-      { text: `someone@puremedia.com`, url: `mailto:someone@puremedia.com`},
+    contacts: {
+      tel1: { text: `647.343.8234`, url: `tel:6473438234` },
+      tel2: { text: `123.456.7890`, url: `tel:1234567890`},
+      email: { text: `someone@puremedia.com`, url: `mailto:someone@puremedia.com`},
+    },
+
+    social: [
+      {
+        service: `Facebook`,
+        url : `https://facebook.com/styleshout`
+      },
+      {
+        service: `Twitter`,
+        url : `https://twitter.com/styleshout`,
+      },
+      {
+        service: `GitHub`,
+        url : `https://github.com/tuuleh/gatsby-starter-puremedia`,
+      },
     ],
+
   },
   plugins: [
       `gatsby-plugin-catch-links`,
