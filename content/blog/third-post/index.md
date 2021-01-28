@@ -1,5 +1,5 @@
 ---
-slug: "third-post"
+path: "/blog/third-post"
 title: "Ut enim ad minim veniam quis nostrud."
 date: "2014-08-28T22:12:03.284Z"
 abstract: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, isi elit consequat ipsum, nec sagittis sem nibh id elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."

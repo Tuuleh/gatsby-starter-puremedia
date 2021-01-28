@@ -8,8 +8,8 @@ export const useBlogPostsQuery = () => {
                 node {
                   frontmatter {
                     title
-                    date(formatString: "MMMM DD, YYYY")
-                    slug
+                    date(formatString: "MM, DD, YYYY")
+                    path
                     abstract
                   }
                 }

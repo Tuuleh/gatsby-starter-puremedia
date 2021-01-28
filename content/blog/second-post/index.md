@@ -1,5 +1,5 @@
 ---
-slug: "second-post"
+path: "/blog/second-post"
 title: "Natus error sit voluptatem accusantium."
 date: "2014-08-29T22:12:03.284Z"
 abstract: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."

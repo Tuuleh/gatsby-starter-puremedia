@@ -1,5 +1,5 @@
 ---
-slug: "sixth-post"
+path: "/blog/sixth-post"
 title: "Sed ut perspiciatis unde omnis iste natus"
 date: "2014-08-23T22:12:03.284Z"
 abstract: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fuga distinctio natus ab sint voluptate quos cumque assumenda ipsa cupiditate aperiam officiis recusandae nemo labore adipisci harum, ea odio dolor."
