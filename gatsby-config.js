@@ -92,6 +92,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
       `gatsby-plugin-anchor-links`,
       `gatsby-plugin-smoothscroll`,
       `react-scrollspy`,
+      `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
